@@ -7,6 +7,8 @@ public class Addtocartmodule {
 	public void cartmodule() {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://mvnrepository.com/");
+
+		driver.manage().window().maximize();
 	}
 
 
